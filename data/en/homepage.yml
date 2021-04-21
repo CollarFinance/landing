@@ -1,0 +1,37 @@
+######################### Banner ###########################
+banner:
+  enable : true
+  title :  "**Coll**ar"
+  subtitle : "Optimized stablecoin lending"
+  social : true
+  # social icons comes from `config.toml` file.
+
+
+####################### About ##############################
+about:
+  enable : true
+  title : ""
+  image : "images/comfy.png"
+  content : "Collar is lending protocol for pegged assets. It lets you use any stablecoin without being exposed it's risks and provides very high capital efficiency, with no requirement for extra collateral to secure the loan.
+
+
+  The comfiest place for your stablecoins"
+
+
+
+####################### Education ###########################
+education:
+  enable : true
+  title : "Features"
+  education_item:
+    # education item loop
+    - name : "No liquidations"
+
+    # education item loop
+    - name : "100% LTV"
+
+    # education item loop
+    - name : "Protection against currency de-pegs"
+
+    # education item loop
+    - name : "Predictable interest rates"

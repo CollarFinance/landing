@@ -1,0 +1,101 @@
+######################## default configuration ####################
+baseURL = "https://collar.org"
+title = "Collar"
+theme = "gofolium"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "10"
+# disable language
+disableLanguages = ["fr"] # desable language from here
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/particles/particles.min.js"
+[[params.plugins.js]]
+link = "plugins/particles/stats.min.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "home"
+URL = "home"
+weight = 1
+
+[[menu.main]]
+name = "discord"
+URL = "https://discord.com/invite/GetGygfMBy"
+weight = 2
+  
+[[menu.main]]
+name = "docs"
+URL = "https://docs.collar.org/"
+weight = 7
+
+
+#################### default parameters ################################
+[params]
+logo = "images/comfy.logo.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+google_analitycs_id = "" # your id
+
+# body particles
+particles = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "App"
+link = "https://app.collar.org/"
+  
+############################# social site ########################
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "discord"
+icon = "ti-themify-favicon-alt" # themify icon : https://themify.me/themify-icons
+link = "https://discord.com/invite/GetGygfMBy"
+
+[[params.social]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/CollarFinance"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1

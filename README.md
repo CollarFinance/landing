@@ -1,2 +1,2 @@
 # landing
-Landing page for collar.org
+Landing page
