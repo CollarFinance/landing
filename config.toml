@@ -39,7 +39,7 @@ link = "plugins/reading-time/readingTime.min.js"
 # main menu
 [[menu.main]]
 name = "home"
-URL = "home"
+URL = "#"
 weight = 1
 
 [[menu.main]]

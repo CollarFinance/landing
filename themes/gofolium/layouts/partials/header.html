@@ -13,13 +13,13 @@
         <ul class="navbar-nav mx-auto">
           {{ if .IsHome }}
           {{ range .Site.Menus.main }}
-          <li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ .Name }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
 
           {{ else }}
 
           {{ range .Site.Menus.main }}
-          <li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ .Name }}</a>
+          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
