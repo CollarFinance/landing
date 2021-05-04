@@ -111,7 +111,7 @@ h6,
     top: 25%;
     height: 50%;
     width: 1px;
-    background: #14AF4A; }
+    background: #275bff; }
   .btn-style::after {
     position: absolute;
     content: "";
@@ -119,37 +119,37 @@ h6,
     top: 25%;
     height: 50%;
     width: 1px;
-    background: #14AF4A; }
+    background: #275bff; }
 
 .btn-link {
   padding: 0;
-  color: #14AF4A;
+  color: #275bff;
   border: 0;
   text-decoration: underline; }
   .btn-link:hover {
-    color: #14AF4A; }
+    color: #275bff; }
 
 .btn-link-group a {
   padding: 0;
-  color: #14AF4A;
+  color: #275bff;
   border: 0;
   text-decoration: underline; }
 
 .btn-primary {
-  background: #14AF4A;
+  background: #275bff;
   color: #fff;
-  border-color: #14AF4A; }
+  border-color: #275bff; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-    background: #14AF4A !important;
-    border-color: #14AF4A !important; }
+    background: #275bff !important;
+    border-color: #275bff !important; }
 
 .btn-outline-primary {
   background: transparent;
   color: #fff;
-  border-color: #14AF4A; }
+  border-color: #275bff; }
   .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-    background: #14AF4A !important;
-    border-color: #14AF4A !important;
+    background: #275bff !important;
+    border-color: #275bff !important;
     color: #fff; }
 
 body {
@@ -191,7 +191,7 @@ select {
     outline: 0; }
 
 a:hover {
-  color: #14AF4A; }
+  color: #275bff; }
 
 .slick-slide {
   outline: 0; }
@@ -219,7 +219,7 @@ a:hover {
   display: unset !important; }
 
 .bg-primary {
-  background: #14AF4A !important; }
+  background: #275bff !important; }
 
 .bg-black {
   background: #000 !important; }
@@ -228,7 +228,7 @@ a:hover {
   background: #0F0F0F !important; }
 
 .text-primary {
-  color: #14AF4A !important; }
+  color: #275bff !important; }
 
 .zindex-1 {
   z-index: 1; }
@@ -272,7 +272,7 @@ p:empty {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff; }
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: #14AF4A; }
+    color: #275bff; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px 15px; }
@@ -291,12 +291,12 @@ p:empty {
   text-align: center;
   transition: .2s ease; }
   .social-icons a:hover {
-    color: #14AF4A;
-    border-color: #14AF4A;
+    color: #275bff;
+    border-color: #275bff;
     text-decoration: none; }
 
 .title strong {
-  color: #14AF4A; }
+  color: #275bff; }
 
 .title-border {
   position: relative;
@@ -308,7 +308,7 @@ p:empty {
     bottom: -15px;
     height: 1px;
     width: 200px;
-    background: #14AF4A; }
+    background: #275bff; }
 
 .form-control {
   background: transparent;
@@ -323,7 +323,7 @@ p:empty {
     background: transparent;
     box-shadow: none;
     color: #fff;
-    border-color: #14AF4A; }
+    border-color: #275bff; }
 
 textarea.form-control {
   height: 180px; }
@@ -342,14 +342,14 @@ textarea.form-control {
     font-weight: 600;
     margin-right: 10px;
     border: 0;
-    color: #14AF4A; }
+    color: #275bff; }
     .pagination .page-item .page-link:hover {
-      background: #14AF4A;
+      background: #275bff;
       color: #fff; }
   .pagination .page-item:first-child .page-link, .pagination .page-item:last-child .page-link {
     border-radius: 0; }
   .pagination .page-item.active .page-link {
-    background: #14AF4A;
+    background: #275bff;
     color: #fff; }
 
 .content * {
@@ -369,7 +369,7 @@ textarea.form-control {
 
 .content a {
   text-decoration: underline;
-  color: #14AF4A; }
+  color: #275bff; }
 
 .content ol,
 .content ul {
@@ -390,7 +390,7 @@ textarea.form-control {
       height: 8px;
       width: 8px;
       border-radius: 50%;
-      background: #14AF4A;
+      background: #275bff;
       left: 3px;
       top: 8px; }
 
@@ -488,7 +488,7 @@ textarea.form-control {
   font-size: 20px !important;
   color: #fff;
   padding: 20px 40px;
-  border-left: 2px solid #14AF4A;
+  border-left: 2px solid #275bff;
   margin: 40px 0;
   font-weight: bold;
   background: #0F0F0F; }
@@ -521,7 +521,7 @@ textarea.form-control {
       .code-tabs .nav-tabs .nav-item::before {
         display: none; }
       .code-tabs .nav-tabs .nav-item.active {
-        background: #14AF4A; }
+        background: #275bff; }
         .code-tabs .nav-tabs .nav-item.active .nav-link {
           color: #fff; }
   .code-tabs .tab-content {
