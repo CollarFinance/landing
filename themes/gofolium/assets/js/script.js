@@ -83,7 +83,7 @@
       }
     },
     "opacity": {
-      "value": 0.2,
+      "value": 0.15,
       "random": true,
       "anim": {
         "enable": false,
