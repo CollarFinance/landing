@@ -80,7 +80,7 @@ link = "https://app.collar.org/"
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/CollarFinance"
 
 [[params.social]]
 title = "discord"
