@@ -34,4 +34,10 @@ education:
     - name : "Protection against currency de-pegs"
 
     # education item loop
-    - name : "Predictable interest rates"
+    - name : "Fixed interest rates"
+    
+    # education item loop
+    - name : "Oracle free"
+
+    # education item loop
+    - name : "No frozen assets"
