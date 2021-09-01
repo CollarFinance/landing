@@ -14,6 +14,6 @@
           uses: JamesIves/github-pages-deploy-action@releases/v3
           with:
             ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-            BRANCH: main # Pushes the updates to the master branch.
+            BRANCH: gh-pages
             FOLDER: actions # The location of the data.json file saved by the Fetch API Data action.
             TARGET_FOLDER: data # Saves the data into the 'data' directory on the master branch.
