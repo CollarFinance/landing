@@ -439,57 +439,6 @@
 								</div>
 							</div>
 						</div>
-						<div class="row pb-4 gx-2 justify-content-center">
-							<div class="col-md-12">
-								<div class="card">
-									<h6 class="card-header bg-primary">
-										<div class = "d-flex align-items-center">
-											<div class = "p-0 d-none d-lg-inline">
-											TotalValueLocked.Script | System.Run
-											</div>
-											<div class = "p-0 d-none d-sm-inline d-lg-none">
-											TotalValueLocked.Script
-											</div>
-											<div class = "p-0 d-xs-inline d-sm-none">
-											TVL.Script
-											</div>	
-										</div>
-									</h6>
-									<div class="card-body">
-										<div class="container-fluid col px-md-4 px-2 pt-5 pb-4 mt-2 mb-0">
-											<div class="row flex-lg-row-reverse g-5 pt-4 pb-1 justify-content-center align-items-center rounded-3 shadow-lg border border-3 border-secondary bg-gradient bg-secondary">
-												<div class="d-flex col-lg-8 my-2 mb-3 p-0 m-0">
-													<div class = "mx-auto">
-													<p class="fs-6 p-0 m-0">
-													(Ropsten teeheehee)
-													</p>
-													<h1 class="display-1 lh-base text-white d-none d-xxl-inline">
-													<span class="tvl"></span>
-													</h1>
-													<h1 class="display-3 lh-base text-white d-none d-sm-inline d-xxl-none">
-													<span class="tvl"></span>
-													</h1>
-													<h1 class="lh-base text-white d-inline d-sm-none">
-													<span class="tvl"></span>
-													</hi>
-													</div>
-												</div>
-												<div class="col-12 col-lg-4 mt-0 mb-3">
-													<div class="card">
-														<img src="/img/tvl_card_bg.gif" class="card-img-fluid mw-100" alt="">
-															<div class="card-img-overlay">
-															<div class="card-body p-0 m-0 d-flex h-75">
-															</div>
-															</div>
-														</img>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -605,44 +554,6 @@
 			</div>
 		</div>
 	</footer>
-
-	<script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-	
-	<script type="text/javascript" language = "javascript">
-	$(document).ready(function() {
-	$.getJSON('data/data.json', function(tvlJSON) {
-	var tvlElement = document.querySelectorAll('span.tvl');
-
-		function tvl() {
-			var tvlfromfile = tvlJSON.tvl;
-			/*
-			var formatter = new Intl.NumberFormat('en-US', {
-			  style: 'currency',
-			  currency: 'USD',
-			  
-			  maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
-			});
-			*/
-			
-			//var tvlDisplay = formatter.format(tvlfromfile);
-			
-			tvlDisplay = (tvlfromfile).toLocaleString("en-US", {
-							style: "currency",
-							currency: "USD",
-							minimumFractionDigits: 0,
-							maximumFractionDigits: 0,
-						});
-
-            tvlElement[0].textContent = tvlDisplay;
-			tvlElement[1].textContent = tvlDisplay;
-			tvlElement[2].textContent = tvlDisplay;
-
-		}
-		tvl();
-		});
-		});
-	</script>
 	
 	<script type="text/javascript">
 		var clockElement = document.getElementById('clock');
